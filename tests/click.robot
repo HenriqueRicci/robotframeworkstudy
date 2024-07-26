@@ -30,7 +30,7 @@ Realizar um clique longo
 
     # Variavel locator pega o elemento que corresponde ao botão de clicar e positions pega a posição x/y desse elemento através do get element e depois usamos esses dados no tap with positions
 
-    ${locator}    Set Variable    id=com.qaxperience.yodapp:id/long_click
+    ${locator}      Set Variable    id=com.qaxperience.yodapp:id/long_click
     ${positions}    Get Element Location    ${locator}
 
             Tap With Positions                  1000    ${${positions}[x], ${positions}[y]}

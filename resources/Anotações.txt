@@ -1,0 +1,17 @@
+Para encontrar um componente em tela podemos usar como exemplo o trecho abaixo. 
+
+//android.widget.CheckBox[@text="Ruby "] - nesse caso estamos buscando o elemento android.widget.CheckBox e procurando um elemento que tenha o texto "Ruby"
+
+Também podemos usar de outra forma, que seria;
+
+//android.widget.CheckBox[contains(@text, "Ruby")] - Nesse caso é igual ou anterior, porém estamos procurando o elemento que contém o texto ruby, não necessáriamente precisa ser texto identico
+
+
+Comandos importantes
+
+code . = Abrir vs code via terminal
+npx appium = Para ligar o servidor do appium
+robot -d ./logs/ tests/click.robot = Executar o robot e guardar a execução na tela de logs
+
+
+
